@@ -20,7 +20,6 @@ Análise da Pesquisa Extensiva do Desenvolvimento Educacional (PEDE 2022, 2023 e
 | Notebook do modelo preditivo (feature engineering, treino/teste, modelagem, avaliação) | `notebooks/02_modelo_preditivo_risco_defasagem.ipynb` |
 | Apresentação gerencial | `apresentacao/Datathon_Passos_Magicos_Fase5.pptx` e `.pdf` |
 | Aplicação Streamlit | `streamlit_app.py` (deploy no Community Cloud) |
-| Roteiro do vídeo (até 5 min) | `docs/roteiro_video.md` |
 
 ## Estrutura
 
@@ -42,7 +41,7 @@ FASE_05/
 ├── models/                           # modelo_risco_defasagem.joblib + metadata.json
 ├── reports/figures/                  # gráficos gerados pelos notebooks
 ├── apresentacao/                     # deck gerencial (PPTX e PDF)
-└── docs/                             # dicionário de dados e roteiro do vídeo
+└── docs/                             # dicionário de dados
 ```
 
 ## Limpeza dos dados
