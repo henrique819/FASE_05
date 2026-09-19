@@ -1,0 +1,25 @@
+DATATHON FASE 05 - CASE PASSOS MÁGICOS
+POSTECH Data Analytics - FIAP
+
+Integrantes:
+- Guilherme Cutrim Batista - RM 369505
+- João Victor Castro Rodrigues - RM 369462
+- João Victor Gomes Dominici - RM 370163
+- Luis Henrique Carvalho Shikasho - RM 368421
+- Vítor Francisco Pirani Silva - RM 36916
+
+1. Repositório GitHub (limpeza, análise, modelo e app):
+   https://github.com/henrique819/FASE_05
+
+2. Apresentação gerencial (storytelling):
+   https://github.com/henrique819/FASE_05/blob/main/apresentacao/Datathon_Passos_Magicos_Fase5.pdf
+
+3. Notebook do modelo preditivo:
+   https://github.com/henrique819/FASE_05/blob/main/notebooks/02_modelo_preditivo_risco_defasagem.ipynb
+
+4. Aplicação Streamlit (Community Cloud):
+   https://fase05-datathon.streamlit.app/
+
+5. Vídeo (até 5 minutos):
+   https://www.youtube.com/watch?v=c3El_nLj4zQ
+
