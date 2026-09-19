@@ -1,0 +1,103 @@
+{
+  "modelo": "Random Forest",
+  "limiar": 0.49,
+  "features": [
+    "FASE",
+    "IDADE",
+    "ANOS_NA_PM",
+    "DEFASAGEM",
+    "INDE",
+    "IAN",
+    "IDA",
+    "IEG",
+    "IAA",
+    "IPS",
+    "IPV",
+    "MAT",
+    "POR",
+    "FASE_IDEAL_PROX_ANO",
+    "DEFAS_PROJ_SEM_AVANCO",
+    "ANO_DE_VIRADA_IDEAL",
+    "GAP_IAA_IDA",
+    "GAP_POR_MAT",
+    "MEDIA_ACADEMICA_ENGAJ",
+    "IEG_BAIXO",
+    "IDA_BAIXO",
+    "GENERO",
+    "INSTITUICAO_GRUPO"
+  ],
+  "num_input": [
+    "FASE",
+    "IDADE",
+    "ANOS_NA_PM",
+    "DEFASAGEM",
+    "INDE",
+    "IAN",
+    "IDA",
+    "IEG",
+    "IAA",
+    "IPS",
+    "IPV",
+    "MAT",
+    "POR"
+  ],
+  "cat_input": [
+    "GENERO",
+    "INSTITUICAO_GRUPO"
+  ],
+  "alvo": "RISCO_DEFASAGEM = defasado (D<0) em t+1 OU piora da defasagem entre t e t+1",
+  "n_pares_treino": 1306,
+  "taxa_risco_base": 0.5329,
+  "metricas_cv": {
+    "ROC-AUC": 0.89,
+    "PR-AUC": 0.89,
+    "Acurácia": 0.812,
+    "Precisão": 0.808,
+    "Recall": 0.849,
+    "F1": 0.828
+  },
+  "metricas_teste": {
+    "ROC-AUC": 0.882,
+    "PR-AUC": 0.876,
+    "Acurácia": 0.782,
+    "Precisão": 0.771,
+    "Recall": 0.843,
+    "F1": 0.805
+  },
+  "metricas_temporal": {
+    "ROC-AUC": 0.841,
+    "PR-AUC": 0.814,
+    "Acurácia": 0.761,
+    "Precisão": 0.749,
+    "Recall": 0.719,
+    "F1": 0.734
+  },
+  "importancia_top": {
+    "DEFAS_PROJ_SEM_AVANCO": 0.0533,
+    "DEFASAGEM": 0.0187,
+    "FASE": 0.0172,
+    "IPV": 0.0124,
+    "IDADE": 0.0114,
+    "ANOS_NA_PM": 0.0046,
+    "MAT": 0.004,
+    "GAP_POR_MAT": 0.0035,
+    "IAN": 0.0027,
+    "IPS": 0.0027
+  },
+  "versoes": {
+    "scikit-learn": "1.8.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.4"
+  },
+  "categorias": {
+    "GENERO": [
+      "Feminino",
+      "Masculino"
+    ],
+    "INSTITUICAO_GRUPO": [
+      "Outros/Concluiu EM",
+      "Privada/Bolsa",
+      "Pública"
+    ]
+  }
+}

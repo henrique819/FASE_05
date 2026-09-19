@@ -1,0 +1,8 @@
+# Dependências do app Streamlit (Community Cloud) — versões fixadas para
+# garantir compatibilidade com o modelo serializado em models/
+streamlit==1.64.0
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+joblib==1.5.3
+openpyxl==3.1.5
